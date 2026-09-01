@@ -3,7 +3,7 @@
 # Hey, I'm Letícia 👋
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=F7DF1E&center=true&vCenter=true&width=500&height=45&lines=Systems+Engineer+%26+Software+Engineer"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=F7DF1E&center=true&vCenter=true&width=500&height=45&lines=--+Systems+Engineer+%26+Software+Engineer+--"
   alt="Typing SVG"
 />
 
