@@ -3,7 +3,7 @@
 # Hey, I'm Letícia 👋
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=F7DF1E&center=true&vCenter=true&width=500&height=45&lines=--+Systems+Engineer+%26+Software+Engineer+--"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&color=F7DF1E&center=true&vCenter=true&width=700&height=45&lines=Systems+%26+Software+Engineer"
   alt="Typing SVG"
 />
 
@@ -109,10 +109,11 @@ Frontend, backend, database, infrastructure, Docker and integration testing.
     height="180"
   />
 
-  <img
+<img
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lbresteves&layout=compact&hide_border=true&bg_color=0D1117&title_color=F7DF1E&text_color=C9D1D9&icon_color=61DAFB"
     height="180"
   />
+
 </p>
 
 ---
@@ -135,7 +136,7 @@ Frontend, backend, database, infrastructure, Docker and integration testing.
 <p align="center">
 
 <img
-  src="./assets/github-snake.svg"
+  src="./dist/github-snake.svg"
   alt="GitHub contribution snake"
 />
 
