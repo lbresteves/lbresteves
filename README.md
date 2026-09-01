@@ -13,13 +13,9 @@
 
 </div>
 
----
-
 ## 🧑‍💻 About me
 
 A Systems Engineering student at **UFMG** and a Software Engineer who loves building things, learning, and occasionally brushing bits.
-
----
 
 ## 🚀 Featured projects
 
@@ -101,51 +97,6 @@ Frontend, backend, database, infrastructure, Docker and integration testing.
 
 ---
 
-## 📊 GitHub activity
-
-<p align="center">
-  <img
-    src="https://github-readme-streak-stats.demolab.com/?user=lbresteves&background=0D1117&border=F7DF1E&stroke=30363D&ring=F7DF1E&fire=FFE66D&currStreakNum=F7DF1E&sideNums=61DAFB&currStreakLabel=FFE66D&sideLabels=8B949E&dates=8B949E"
-    height="180"
-  />
-
-<img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lbresteves&layout=compact&hide_border=true&bg_color=0D1117&title_color=F7DF1E&text_color=C9D1D9&icon_color=61DAFB"
-    height="180"
-  />
-
-</p>
-
----
-
-### 📈 Recent activity
-
-<p align="center">
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=lbresteves&bg_color=0D1117&color=C9D1D9&line=F7DF1E&point=61DAFB&area=true&hide_border=true"
-  width="95%"
-/>
-
-</p>
-
----
-
-## 🐍 Contributions
-
-<p align="center">
-
-<img
-  src="./dist/github-snake.svg"
-  alt="GitHub contribution snake"
-/>
-
-</p>
-
----
-
-<div align="center">
-
-### ✨ Thanks for stopping by!
+### Thanks for stopping by!
 
 </div>
