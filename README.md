@@ -99,6 +99,10 @@ Frontend, backend, database, infrastructure, Docker and integration testing.
 
 ### Thanks for stopping by!
 
-![snake gif](https://raw.githubusercontent.com/AmandaFernandes0701/SEU_REPO/output/dist/github-contribution-grid-snake.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lbresteves/lbresteves/output/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lbresteves/lbresteves/output/dist/github-contribution-grid-snake.svg" />
+  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/lbresteves/lbresteves/output/dist/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
