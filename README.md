@@ -100,9 +100,9 @@ Frontend, backend, database, infrastructure, Docker and integration testing.
 ### Thanks for stopping by!
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lbresteves/lbresteves/output/dist/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lbresteves/lbresteves/output/dist/github-contribution-grid-snake.svg" />
-  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/lbresteves/lbresteves/output/dist/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lbresteves/lbresteves/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lbresteves/lbresteves/output/github-contribution-grid-snake.svg" />
+  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/lbresteves/lbresteves/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
