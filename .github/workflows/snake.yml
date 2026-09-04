@@ -1,27 +1,40 @@
-# name: Generate Snake
+name: Generate Snake
 
-# on:
-#   schedule:
-#     - cron: "0 0 * * *"
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
-#   workflow_dispatch:
+permissions:
+  contents: write
 
-# permissions:
-#   contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v3
 
-# jobs:
-#   generate:
-#     runs-on: ubuntu-latest
+      - name: Generate the snake files in './dist/'
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-#     steps:
-#       - uses: Platane/snk/svg-only@v3
-#         with:
-#           github_user_name: lbresteves
-#           outputs: |
-#             dist/github-snake.svg?color_snake=F7DF1E&color_dots=0D1117,FFE66D,F7DF1E,61DAFB,3178C6
-
-#       - name: Push snake
-#         uses: EndBug/add-and-commit@v9
-#         with:
-#           message: "chore: update contribution snake"
-#           add: "dist/github-snake.svg"
+      - name: Push new files to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update snake animations
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

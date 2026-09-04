@@ -99,4 +99,6 @@ Frontend, backend, database, infrastructure, Docker and integration testing.
 
 ### Thanks for stopping by!
 
+![snake gif](https://raw.githubusercontent.com/AmandaFernandes0701/SEU_REPO/output/dist/github-contribution-grid-snake.gif)
+
 </div>
